@@ -27,5 +27,4 @@ pre_submit.sh
 build
 dist
 netin.egg-info
-.venv/
 .venv*
