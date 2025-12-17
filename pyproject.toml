@@ -8,11 +8,37 @@ build-backend = "setuptools.build_meta"
 
 # Project
 [project]
+
 name = "netin"
-description = "Python package for probabilistic network analysis."
+description = "Python package to study inequalities in social networks"
 version = "1.0.1"
 requires-python = ">=3.9,<3.14"
 readme = "README.rst"
+
+authors = {
+    "Karimi": ("Fariba Karimi", "karimi@csh.ac.at"),
+    "Espín-Noboa": ("Lisette Espín-Noboa", "espin@csh.ac.at"),
+    "Bachmann": ("Jan Bachmann", "bachmann@csh.ac.at"),
+}
+
+maintainer = "NetIn Developers"
+maintainer_email = "netin-dev@googlegroups.com"
+url = "https://github.com/CSHVienna/NetworkInequalities"
+platforms = ["Linux", "Mac OSX", "Windows", "Unix"]
+
+keywords = [
+    "Networks",
+    "Inequalities",
+    "Social Networks",
+    "Ranking",
+    "Inference"
+    "Graph Theory",
+    "Mathematics",
+    "network",
+    "undirected",
+    "discrete mathematics",
+    "math",
+]
 
 classifiers = [
     "Development Status :: 3 - Alpha",
