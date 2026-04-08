@@ -32,7 +32,7 @@ jobs:
 
       - name: Install netin
         run: |
-          pip install ./
+          pip install -e ".[test]"
 
       - name: Build documentation
         run: |
