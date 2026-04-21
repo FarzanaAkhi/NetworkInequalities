@@ -25,15 +25,10 @@ jobs:
           # install pip=>20.1 to use "pip cache dir"
           python3 -m pip install --upgrade pip
 
-      - name: Install dependencies
-        run: |
-          pip install -e ".[test]"
-          pip install sphinx numpydoc
-
 
       - name: Install netin
         run: |
-          pip install -e ".[test]"
+          pip install -e ".[docs]"
 
       - name: Build documentation
         run: |
