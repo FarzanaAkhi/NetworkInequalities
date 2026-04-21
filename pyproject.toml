@@ -85,8 +85,8 @@ docs = [
     "setuptools~=67.6.1",
     "sphinx",
     "sphinx-autobuild",
-    "numpydoc>=1.10.0",
-    "furo>=2025.12.19"
+    "numpydoc",
+    "furo"
 ]
 
 [tool.setuptools.packages.find]
