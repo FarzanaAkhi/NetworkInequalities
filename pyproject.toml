@@ -84,7 +84,7 @@ test = [
 docs = [
     "setuptools~=67.6.1",
     "sphinx",
-    "sphinx-autobuild>=2025.8.25",
+    "sphinx-autobuild",
     "numpydoc>=1.10.0",
     "furo>=2025.12.19"
 ]
